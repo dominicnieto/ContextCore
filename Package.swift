@@ -15,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/christopherkarani/MetalANNS.git", from: "0.1.2"),
+        .package(url: "https://github.com/dominicnieto/MetalANNS.git", branch: "production"),
         .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.4.0"),
     ],
     targets: [
